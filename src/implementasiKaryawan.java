@@ -25,20 +25,24 @@ public class implementasiKaryawan {
         Raj.nama = "Raj Surya Ajie Perkasa";
         Raj.gaji = 2000000.00;
         
-//        mencetak hasil
-        System.out.println("Data Karyawan");
-        System.out.println("ID  : " + Ricko.ID);
-        System.out.println("NAMA : " + Ricko.nama);
-        System.out.println("DIVISI : " + Ricko.divisi);
-        System.out.println("GAJI : " + Ricko.gaji);
+//        mencetak data dengan method
+        Ricko.cetakdata();
+        Raj.cetakdata();
         
-        System.out.println("==============================");
-        
-        System.out.println("Data Karyawan");
-        System.out.println("ID  : " + Raj.ID);
-        System.out.println("NAMA : " + Raj.nama);
-        System.out.println("DIVISI : " + Raj.divisi);
-        System.out.println("GAJI : " + Raj.gaji);
-        
+//        cetak data secara manual
+//        System.out.println("Data Karyawan");
+//        System.out.println("ID  : " + Ricko.ID);
+//        System.out.println("NAMA : " + Ricko.nama);
+//        System.out.println("DIVISI : " + Ricko.divisi);
+//        System.out.println("GAJI : " + Ricko.gaji);
+//        
+//        System.out.println("==============================");
+//        
+//        System.out.println("Data Karyawan");
+//        System.out.println("ID  : " + Raj.ID);
+//        System.out.println("NAMA : " + Raj.nama);
+//        System.out.println("DIVISI : " + Raj.divisi);
+//        System.out.println("GAJI : " + Raj.gaji);
+//        
     }
 }
